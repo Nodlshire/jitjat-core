@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jitjat-core"
+version = "3.0.0"
+authors = [
+  { name="Stephen Soos", email="stephen@dslabs.io" },
+]
+description = "Sub-2.5ms Memory-Mapped Cognitive Substrate for Sovereign AI"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Database :: Database Engines/Servers",
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/dslabs/jitjat-core"
+"Bug Tracker" = "https://github.com/dslabs/jitjat-core/issues"
